@@ -2,8 +2,11 @@ img{
     width: 150px;
 }
 
+
+
 body{
-    <!--background-color: lightgray;-->
+   background-color: lightgray;
+
 }
 
 p {
@@ -36,11 +39,8 @@ strong {
 
 
 .demo {
-    width:400px;
-    height:400px;
-    font-size:5em;
-    float:left;
-    text-align:center;
+    width:150px;
+    height:150px;
 }
 
 .rainbow-bg{
