@@ -3,26 +3,47 @@ img{
     border-radius: 40% 10%;
     position: relative;
     top: 10px; left: 10px;
+    box-shadow: 10px 5px 5px #00ffc4;
+    max-width: 500px;
 }
 
-
+header{
+    padding: 10px;
+}
 
 body{
    background-color: lightgray;
     font-family: "Bookman Old Style", serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.1em;
 }
 a{
     color: darkblue;
-    font-size: 20px;
+    font-size: 1.1em;
+
+}
+
+a:hover {
+    background-color: #00ffc4;
 }
 
 h1{
     color: royalblue;
-    font-size: 50px;
+    font-size: 3rem;
+    text-align: left;
 }
 h2{
     color: mediumblue;
@@ -34,6 +55,7 @@ li {
 
 footer {
     font-size: 20px;
+    padding: 30px;
 }
 
 strong {
