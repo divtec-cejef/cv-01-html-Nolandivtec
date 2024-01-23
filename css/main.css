@@ -1,11 +1,9 @@
-
-
-
 body {
     background-color: lightgray;
     font-family: "Bookman Old Style", serif;
-    justify-content: center;
     align-items: center;
+    margin: auto;
+    max-width: 500px;
 }
 
 header {
