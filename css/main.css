@@ -1,0 +1,153 @@
+body {
+    background-color: lightgray;
+    font-family: "Bookman Old Style", serif;
+    align-items: center;
+    margin: auto;
+    max-width: 500px;
+}
+
+header {
+    padding: 10px;
+}
+
+h1 {
+    color: royalblue;
+    font-size: 3rem;
+    text-align: left;
+}
+
+img {
+    width: 200px;
+    border-radius: 40% 10%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    box-shadow: 10px 5px 5px #00ffc4;
+    max-width: 500px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.demo {
+    width: 200px;
+    height: 200px;
+}
+
+.rainbow-bg {
+    animation: rainbow-bg 0.5s linear;
+    animation-iteration-count: infinite;
+}
+
+.rainbow {
+    animation: rainbow 2.5s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow-bg {
+    100%, 0% {
+        background-color: rgb(255, 0, 0);
+    }
+    8% {
+        background-color: rgb(255, 127, 0);
+    }
+    16% {
+        background-color: rgb(255, 255, 0);
+    }
+    25% {
+        background-color: rgb(127, 255, 0);
+    }
+    33% {
+        background-color: rgb(0, 255, 0);
+    }
+    41% {
+        background-color: rgb(0, 255, 127);
+    }
+    50% {
+        background-color: rgb(0, 255, 255);
+    }
+    58% {
+        background-color: rgb(0, 127, 255);
+    }
+    66% {
+        background-color: rgb(0, 0, 255);
+    }
+    75% {
+        background-color: rgb(127, 0, 255);
+    }
+    83% {
+        background-color: rgb(255, 0, 255);
+    }
+    91% {
+        background-color: rgb(255, 0, 127);
+    }
+}
+
+@keyframes rainbow {
+    100%, 0% {
+        color: rgb(255, 0, 0);
+    }
+    8% {
+        color: rgb(255, 127, 0);
+    }
+    16% {
+        color: rgb(255, 255, 0);
+    }
+    25% {
+        color: rgb(127, 255, 0);
+    }
+    33% {
+        color: rgb(0, 255, 0);
+    }
+    41% {
+        color: rgb(0, 255, 127);
+    }
+    50% {
+        color: rgb(0, 255, 255);
+    }
+    58% {
+        color: rgb(0, 127, 255);
+    }
+    66% {
+        color: rgb(0, 0, 255);
+    }
+    75% {
+        color: rgb(127, 0, 255);
+    }
+    83% {
+        color: rgb(255, 0, 255);
+    }
+    91% {
+        color: rgb(255, 0, 127);
+    }
+}
+
+p {
+    font-size: 1.1em;
+}
+
+a {
+    color: darkblue;
+    font-size: 1.1em;
+
+}
+
+a:hover {
+    background-color: #00ffc4;
+}
+
+h2 {
+    color: mediumblue;
+    font-size: 40px;
+}
+
+li {
+    font-size: 20px;
+}
+
+footer {
+    font-size: 20px;
+    padding: 30px;
+}
+
